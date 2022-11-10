@@ -1,0 +1,1 @@
+# PVRS is android mini application project developed to detect counterfeit drugs and report it to the Food and Drug Authority.It also display drugs that ave been vetted and approved by Food and Drug Autority.
