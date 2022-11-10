@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.kstu.perrys_project.PVRS.fragment.VerifyFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fda2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/nafdac_number_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_unique_no" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/nafdac_number_search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#010B43"
+            android:text="@string/verify"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="#FFC107"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/barcode" />
+
+</FrameLayout>

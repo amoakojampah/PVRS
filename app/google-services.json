@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "168770384893",
+    "firebase_url": "https://perrys-project-3c65f-default-rtdb.firebaseio.com",
+    "project_id": "perrys-project-3c65f",
+    "storage_bucket": "perrys-project-3c65f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168770384893:android:b7f12e20c73853a1715f94",
+        "android_client_info": {
+          "package_name": "com.kstu.perrys_project.PVRS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168770384893-qu6clou0fta5et9f3jgltq210mc91rl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5nbjxd833KDnJDhr4wz_wCvYDBlYg1Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168770384893-qu6clou0fta5et9f3jgltq210mc91rl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
